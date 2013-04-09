@@ -18,6 +18,14 @@
 		B29D1A781711FE2500610350 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B29D1A771711FE2500610350 /* Default-568h@2x.png */; };
 		B29D1A7B1711FE2500610350 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29D1A791711FE2500610350 /* MainStoryboard.storyboard */; };
 		B29D1A7E1711FE2500610350 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29D1A7D1711FE2500610350 /* ViewController.m */; };
+		B29D1A851711FEB600610350 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1A841711FEB600610350 /* MediaPlayer.framework */; };
+		B2FBEFA717146C53005EB9B3 /* NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FBEFA217146C52005EB9B3 /* NextButton.png */; };
+		B2FBEFA817146C53005EB9B3 /* noArtworkImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FBEFA317146C52005EB9B3 /* noArtworkImage.png */; };
+		B2FBEFA917146C53005EB9B3 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FBEFA417146C52005EB9B3 /* pauseButton.png */; };
+		B2FBEFAA17146C53005EB9B3 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FBEFA517146C53005EB9B3 /* playButton.png */; };
+		B2FBEFAB17146C53005EB9B3 /* PreviousButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FBEFA617146C53005EB9B3 /* PreviousButton.png */; };
+		B2FBEFAE17148DE7005EB9B3 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FBEFAD17148DE7005EB9B3 /* ResultViewController.m */; };
+		B2FBEFB417149212005EB9B3 /* TaggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FBEFB317149212005EB9B3 /* TaggViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,18 @@
 		B29D1A7A1711FE2500610350 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B29D1A7C1711FE2500610350 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B29D1A7D1711FE2500610350 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B29D1A841711FEB600610350 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B29D1A861711FEBB00610350 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B29D1A881711FEC200610350 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		B2FBEFA217146C52005EB9B3 /* NextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextButton.png; sourceTree = "<group>"; };
+		B2FBEFA317146C52005EB9B3 /* noArtworkImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noArtworkImage.png; sourceTree = "<group>"; };
+		B2FBEFA417146C52005EB9B3 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		B2FBEFA517146C53005EB9B3 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		B2FBEFA617146C53005EB9B3 /* PreviousButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviousButton.png; sourceTree = "<group>"; };
+		B2FBEFAC17148DE7005EB9B3 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		B2FBEFAD17148DE7005EB9B3 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		B2FBEFB217149212005EB9B3 /* TaggViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaggViewController.h; sourceTree = "<group>"; };
+		B2FBEFB317149212005EB9B3 /* TaggViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaggViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29D1A851711FEB600610350 /* MediaPlayer.framework in Frameworks */,
 				B29D1A621711FE2500610350 /* UIKit.framework in Frameworks */,
 				B29D1A641711FE2500610350 /* Foundation.framework in Frameworks */,
 				B29D1A661711FE2500610350 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +94,9 @@
 		B29D1A601711FE2500610350 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B29D1A881711FEC200610350 /* AudioUnit.framework */,
+				B29D1A861711FEBB00610350 /* AudioToolbox.framework */,
+				B29D1A841711FEB600610350 /* MediaPlayer.framework */,
 				B29D1A611711FE2500610350 /* UIKit.framework */,
 				B29D1A631711FE2500610350 /* Foundation.framework */,
 				B29D1A651711FE2500610350 /* CoreGraphics.framework */,
@@ -86,8 +110,12 @@
 				B29D1A701711FE2500610350 /* AppDelegate.h */,
 				B29D1A711711FE2500610350 /* AppDelegate.m */,
 				B29D1A791711FE2500610350 /* MainStoryboard.storyboard */,
+				B2FBEFB217149212005EB9B3 /* TaggViewController.h */,
+				B2FBEFB317149212005EB9B3 /* TaggViewController.m */,
 				B29D1A7C1711FE2500610350 /* ViewController.h */,
 				B29D1A7D1711FE2500610350 /* ViewController.m */,
+				B2FBEFAC17148DE7005EB9B3 /* ResultViewController.h */,
+				B2FBEFAD17148DE7005EB9B3 /* ResultViewController.m */,
 				B29D1A681711FE2500610350 /* Supporting Files */,
 			);
 			path = MusicSortingAPP;
@@ -96,6 +124,11 @@
 		B29D1A681711FE2500610350 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B2FBEFA217146C52005EB9B3 /* NextButton.png */,
+				B2FBEFA317146C52005EB9B3 /* noArtworkImage.png */,
+				B2FBEFA417146C52005EB9B3 /* pauseButton.png */,
+				B2FBEFA517146C53005EB9B3 /* playButton.png */,
+				B2FBEFA617146C53005EB9B3 /* PreviousButton.png */,
 				B29D1A691711FE2500610350 /* MusicSortingAPP-Info.plist */,
 				B29D1A6A1711FE2500610350 /* InfoPlist.strings */,
 				B29D1A6D1711FE2500610350 /* main.m */,
@@ -163,6 +196,11 @@
 				B29D1A761711FE2500610350 /* Default@2x.png in Resources */,
 				B29D1A781711FE2500610350 /* Default-568h@2x.png in Resources */,
 				B29D1A7B1711FE2500610350 /* MainStoryboard.storyboard in Resources */,
+				B2FBEFA717146C53005EB9B3 /* NextButton.png in Resources */,
+				B2FBEFA817146C53005EB9B3 /* noArtworkImage.png in Resources */,
+				B2FBEFA917146C53005EB9B3 /* pauseButton.png in Resources */,
+				B2FBEFAA17146C53005EB9B3 /* playButton.png in Resources */,
+				B2FBEFAB17146C53005EB9B3 /* PreviousButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +214,8 @@
 				B29D1A6E1711FE2500610350 /* main.m in Sources */,
 				B29D1A721711FE2500610350 /* AppDelegate.m in Sources */,
 				B29D1A7E1711FE2500610350 /* ViewController.m in Sources */,
+				B2FBEFAE17148DE7005EB9B3 /* ResultViewController.m in Sources */,
+				B2FBEFB417149212005EB9B3 /* TaggViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +300,8 @@
 		B29D1A821711FE2500610350 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicSortingAPP/MusicSortingAPP-Prefix.pch";
 				INFOPLIST_FILE = "MusicSortingAPP/MusicSortingAPP-Info.plist";
@@ -271,6 +313,8 @@
 		B29D1A831711FE2500610350 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicSortingAPP/MusicSortingAPP-Prefix.pch";
 				INFOPLIST_FILE = "MusicSortingAPP/MusicSortingAPP-Info.plist";
@@ -298,6 +342,7 @@
 				B29D1A831711FE2500610350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
