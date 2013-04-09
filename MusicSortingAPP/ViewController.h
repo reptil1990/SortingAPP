@@ -14,7 +14,6 @@
     
     MPMusicPlayerController *musicPlayer;
     
-    IBOutlet UIImageView *artworkImageView;
     IBOutlet UILabel *titleLabel;
     IBOutlet UILabel *artistLabel;
     IBOutlet UILabel *albumLabel;

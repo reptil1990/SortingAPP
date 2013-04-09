@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B29D1A621711FE2500610350 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1A611711FE2500610350 /* UIKit.framework */; };
-		B29D1A641711FE2500610350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1A631711FE2500610350 /* Foundation.framework */; };
 		B29D1A661711FE2500610350 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1A651711FE2500610350 /* CoreGraphics.framework */; };
 		B29D1A6C1711FE2500610350 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29D1A6A1711FE2500610350 /* InfoPlist.strings */; };
 		B29D1A6E1711FE2500610350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B29D1A6D1711FE2500610350 /* main.m */; };
@@ -19,6 +18,7 @@
 		B29D1A7B1711FE2500610350 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29D1A791711FE2500610350 /* MainStoryboard.storyboard */; };
 		B29D1A7E1711FE2500610350 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29D1A7D1711FE2500610350 /* ViewController.m */; };
 		B29D1A851711FEB600610350 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1A841711FEB600610350 /* MediaPlayer.framework */; };
+		B2B6945B1714A70C00F03682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1A631711FE2500610350 /* Foundation.framework */; };
 		B2FBEFA717146C53005EB9B3 /* NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FBEFA217146C52005EB9B3 /* NextButton.png */; };
 		B2FBEFA817146C53005EB9B3 /* noArtworkImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FBEFA317146C52005EB9B3 /* noArtworkImage.png */; };
 		B2FBEFA917146C53005EB9B3 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FBEFA417146C52005EB9B3 /* pauseButton.png */; };
@@ -26,10 +26,11 @@
 		B2FBEFAB17146C53005EB9B3 /* PreviousButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FBEFA617146C53005EB9B3 /* PreviousButton.png */; };
 		B2FBEFAE17148DE7005EB9B3 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FBEFAD17148DE7005EB9B3 /* ResultViewController.m */; };
 		B2FBEFB417149212005EB9B3 /* TaggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FBEFB317149212005EB9B3 /* TaggViewController.m */; };
+		B2FBEFB71714A27A005EB9B3 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FBEFB61714A27A005EB9B3 /* OptionsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B29D1A5E1711FE2500610350 /* MusicSortingAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicSortingAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29D1A5E1711FE2500610350 /* DJSortAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJSortAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29D1A611711FE2500610350 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B29D1A631711FE2500610350 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B29D1A651711FE2500610350 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,6 +58,8 @@
 		B2FBEFAD17148DE7005EB9B3 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 		B2FBEFB217149212005EB9B3 /* TaggViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaggViewController.h; sourceTree = "<group>"; };
 		B2FBEFB317149212005EB9B3 /* TaggViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaggViewController.m; sourceTree = "<group>"; };
+		B2FBEFB51714A27A005EB9B3 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		B2FBEFB61714A27A005EB9B3 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B6945B1714A70C00F03682 /* Foundation.framework in Frameworks */,
 				B29D1A851711FEB600610350 /* MediaPlayer.framework in Frameworks */,
 				B29D1A621711FE2500610350 /* UIKit.framework in Frameworks */,
-				B29D1A641711FE2500610350 /* Foundation.framework in Frameworks */,
 				B29D1A661711FE2500610350 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,7 +89,7 @@
 		B29D1A5F1711FE2500610350 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B29D1A5E1711FE2500610350 /* MusicSortingAPP.app */,
+				B29D1A5E1711FE2500610350 /* DJSortAPP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +113,8 @@
 				B29D1A701711FE2500610350 /* AppDelegate.h */,
 				B29D1A711711FE2500610350 /* AppDelegate.m */,
 				B29D1A791711FE2500610350 /* MainStoryboard.storyboard */,
+				B2FBEFB51714A27A005EB9B3 /* OptionsViewController.h */,
+				B2FBEFB61714A27A005EB9B3 /* OptionsViewController.m */,
 				B2FBEFB217149212005EB9B3 /* TaggViewController.h */,
 				B2FBEFB317149212005EB9B3 /* TaggViewController.m */,
 				B29D1A7C1711FE2500610350 /* ViewController.h */,
@@ -157,7 +162,7 @@
 			);
 			name = MusicSortingAPP;
 			productName = MusicSortingAPP;
-			productReference = B29D1A5E1711FE2500610350 /* MusicSortingAPP.app */;
+			productReference = B29D1A5E1711FE2500610350 /* DJSortAPP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -216,6 +221,7 @@
 				B29D1A7E1711FE2500610350 /* ViewController.m in Sources */,
 				B2FBEFAE17148DE7005EB9B3 /* ResultViewController.m in Sources */,
 				B2FBEFB417149212005EB9B3 /* TaggViewController.m in Sources */,
+				B2FBEFB71714A27A005EB9B3 /* OptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +311,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicSortingAPP/MusicSortingAPP-Prefix.pch";
 				INFOPLIST_FILE = "MusicSortingAPP/MusicSortingAPP-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DJSortAPP;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -318,7 +324,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicSortingAPP/MusicSortingAPP-Prefix.pch";
 				INFOPLIST_FILE = "MusicSortingAPP/MusicSortingAPP-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DJSortAPP;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

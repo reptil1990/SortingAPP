@@ -98,14 +98,6 @@
 - (void) handle_NowPlayingItemChanged: (id) notification
 {
    	MPMediaItem *currentItem = [musicPlayer nowPlayingItem];
-	UIImage *artworkImage = [UIImage imageNamed:@"noArtworkImage.png"];
-	MPMediaItemArtwork *artwork = [currentItem valueForProperty: MPMediaItemPropertyArtwork];
-	
-	if (artwork) {
-		artworkImage = [artwork imageWithSize: CGSizeMake (200, 200)];
-	}
-	
-    [artworkImageView setImage:artworkImage];
     
     NSString *titleString = [currentItem valueForProperty:MPMediaItemPropertyTitle];
     if (titleString) {
@@ -168,7 +160,7 @@
     
     mediaPicker.delegate = self;
     mediaPicker.allowsPickingMultipleItems = YES;
-    mediaPicker.prompt = @"Select songs to play";
+    mediaPicker.prompt = @"Select songs to sort";
     
     [self presentViewController:mediaPicker animated:YES completion:nil];
 }
@@ -178,7 +170,6 @@
     if (mediaItemCollection) {
         
         [musicPlayer setQueueWithItemCollection: mediaItemCollection];
-        [musicPlayer play];
     }
     
 	[self dismissViewControllerAnimated:YES completion:nil];
