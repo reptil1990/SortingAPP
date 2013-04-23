@@ -65,10 +65,6 @@
     
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
 
 #pragma mark - Notifications
 
@@ -156,7 +152,7 @@
 
 - (IBAction)showMediaPicker:(id)sender
 {
-    MPMediaPickerController *mediaPicker = [[MPMediaPickerController alloc] initWithMediaTypes: MPMediaTypeAny];
+    MPMediaPickerController *mediaPicker = [[MPMediaPickerController alloc] initWithMediaTypes: MPMediaTypeMusic];
     
     mediaPicker.delegate = self;
     mediaPicker.allowsPickingMultipleItems = YES;
@@ -207,6 +203,10 @@
 - (IBAction)nextSong:(id)sender
 {
     [musicPlayer skipToNextItem];
+}
+
+- (IBAction)startPlay:(id)sender {
+    [musicPlayer play];
 }
 
 

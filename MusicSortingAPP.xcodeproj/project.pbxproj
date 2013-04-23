@@ -30,7 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B29D1A5E1711FE2500610350 /* DJSortAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJSortAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29D1A5E1711FE2500610350 /* MusicSortingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicSortingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29D1A611711FE2500610350 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B29D1A631711FE2500610350 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B29D1A651711FE2500610350 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -89,7 +89,7 @@
 		B29D1A5F1711FE2500610350 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B29D1A5E1711FE2500610350 /* DJSortAPP.app */,
+				B29D1A5E1711FE2500610350 /* MusicSortingApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 			);
 			name = MusicSortingAPP;
 			productName = MusicSortingAPP;
-			productReference = B29D1A5E1711FE2500610350 /* DJSortAPP.app */;
+			productReference = B29D1A5E1711FE2500610350 /* MusicSortingApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -306,12 +306,14 @@
 		B29D1A821711FE2500610350 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carsten Graf (5B36338CN7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carsten Graf (5B36338CN7)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicSortingAPP/MusicSortingAPP-Prefix.pch";
 				INFOPLIST_FILE = "MusicSortingAPP/MusicSortingAPP-Info.plist";
-				PRODUCT_NAME = DJSortAPP;
+				PRODUCT_NAME = MusicSortingApp;
+				PROVISIONING_PROFILE = "3DCCDD17-0715-47CE-B098-634AC51CB529";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3DCCDD17-0715-47CE-B098-634AC51CB529";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -319,12 +321,14 @@
 		B29D1A831711FE2500610350 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carsten Graf (5B36338CN7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carsten Graf (5B36338CN7)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicSortingAPP/MusicSortingAPP-Prefix.pch";
 				INFOPLIST_FILE = "MusicSortingAPP/MusicSortingAPP-Info.plist";
-				PRODUCT_NAME = DJSortAPP;
+				PRODUCT_NAME = MusicSortingApp;
+				PROVISIONING_PROFILE = "3DCCDD17-0715-47CE-B098-634AC51CB529";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3DCCDD17-0715-47CE-B098-634AC51CB529";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

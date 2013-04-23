@@ -9,13 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface OptionsViewController : UIViewController
+{
 
-
-
+}
 
 @property (strong, nonatomic) IBOutlet UITextField *nameButtonLU;
 @property (strong, nonatomic) IBOutlet UITextField *nameButtonRU;
 @property (strong, nonatomic) IBOutlet UITextField *nameButtonLD;
 @property (strong, nonatomic) IBOutlet UITextField *nameButtonRD;
+
+- (IBAction)hideKeyboard:(id)sender;
+
+- (IBAction)setNames:(id)sender;
 
 @end

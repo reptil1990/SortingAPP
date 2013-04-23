@@ -32,6 +32,7 @@
 - (IBAction)previousSong:(id)sender;
 - (IBAction)playPause:(id)sender;
 - (IBAction)nextSong:(id)sender;
+- (IBAction)startPlay:(id)sender;
 
 - (void) registerMediaPlayerNotifications;
 
